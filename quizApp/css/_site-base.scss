@@ -1,0 +1,54 @@
+$white: #fff;
+$black: #000;
+$nude: #FFFBEB;
+$brown: #78350F;
+$dark-blue: #0F172A;
+$gery: #E2E8F0;
+
+$sm: 576px;
+$md: 768px;
+$lg: 992px;
+$xl: 1200px;
+$xxl: 1400px;
+
+
+$font-family: "Roboto";
+
+body,
+html {
+    overflow-x: hidden;
+}
+
+body {
+    font-family: $font-family;
+
+}
+
+a {
+    text-decoration: none;
+    transition: .3s all ease;
+}
+
+.custom-button-navbar {
+    height: 54px;
+    padding: 14px 30px;
+    border: 2px solid $brown;
+    color: $brown;
+    border-radius: 8px;
+
+    &:hover {
+        color: $brown;
+        border-color: $brown;
+    }
+
+    &:active,
+    &:focus {
+        outline: $brown;
+        box-shadow: $brown;
+    }
+}
+
+
+
+
+  
